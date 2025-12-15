@@ -1,9 +1,9 @@
 # 📘 Judul Proyek
-*(Isi judul proyek Anda di sini)*
+*Klasifikasi Emosi Musik Berdasarkan Fitur Akustik Menggunakan Pendekatan Baseline Model, Machine Learning dan Deep Learning*
 
 ## 👤 Informasi
-- **Nama:** [...]  
-- **Repo:** [...]  
+- **Nama:*Chesar Rizqi Febrianto*  
+- **Repo:*https://github.com/CrFebrian/UAS_DATA-SCIENCE_234311035_CHESAR *  
 - **Video:** [...]  
 
 ---
