@@ -112,8 +112,8 @@ Berikut tabel fitur yang digunakan:*
 ---
 
 # 8. 🔮 Future Work
-[ x ] Menambah kelas emosi selain happy dan angry
-[ x ] Menggunakan fitur audio tambahan atau spectrogram
+[x] Menambah kelas emosi selain happy dan angry
+[x] Menggunakan fitur audio tambahan atau spectrogram
 [ x ] Melakukan tuning hyperparameter model
 [ x ] Mengembangkan sistem ke tahap deployment
 
