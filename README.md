@@ -23,9 +23,8 @@
 - Perlu diketahui fitur akustik spesifik apa (misalnya: apakah Tempo, RMS Energy, atau Spectral Centroid) yang menjadi faktor penentu utama dalam membedakan kemarahan dan kebahagiaan.
 
 *Goals:*
-- Membangun sistem klasifikasi emosi berbasis fitur akustik yang mampu membedakan dua kelas emosi yaitu happy dan angry dengan performa yang terukur menggunakan metrik evaluasi yang relevan  
+- Membangun sistem klasifikasi emosi (Happy vs Angry) dengan Akurasi Minimal > 60% pada data uji (Test Set).  
 - Menerapkan dan mengevaluasi tiga pendekatan pemodelan yang berbeda yaitu model baseline, model machine learning, dan model deep learning untuk melihat perbedaan performa serta karakteristik masing masing model.
-- Mengidentifikasi fitur-fitur audio yang paling dominan (Feature Importance) dalam mempengaruhi keputusan model.
 - Menghasilkan model akhir yang tersimpan (saved model) beserta scaler-nya agar dapat digunakan kembali untuk prediksi data baru secara konsisten.
 
 ---
