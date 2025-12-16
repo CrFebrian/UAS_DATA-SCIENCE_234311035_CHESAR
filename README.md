@@ -2,9 +2,9 @@
 **Klasifikasi Emosi Musik Berdasarkan Fitur Akustik Menggunakan Pendekatan Baseline Model, Machine Learning dan Deep Learning**
 
 ## 👤 Informasi
-- *Nama*: *Chesar Rizqi Febrianto*  
+- *Nama*: **Chesar Rizqi Febrianto** 
 - *Repo*: https://github.com/CrFebrian/UAS_DATA-SCIENCE_234311035_CHESAR
-- *Video*: *( MASIH KOSONG )*
+- *Video*: https://youtu.be/48sVBC7yk9E
 
 ---
 
@@ -45,10 +45,17 @@ project/
 │ ├── Model ML Acoustic.pkl
 │ └── model_3_deep_learning.h5
 │
-├── images/ 
-│ ├── confusion_matrix.png
-│ ├── f1_comparison.png
-│ └── training_history.png
+├── images/
+│ ├── Boxplot Comparison.png
+│ ├── Heatmap.png
+│ ├── Confusion Matrix - Random Forest.png
+│ ├── Training vs Validation Accuracy.png
+│ ├── Training & Validation Loss.png
+│ ├── Confusion Matrix - Model 1 (Baseline).png
+│ ├── Evaluation Confusion Matrix - Model 2 (Random Forest).png
+│ ├── Feature Importance - Random Forest.png
+│ ├── Evaluation Confusion Matrix - Model 3 (Deep Learning).png
+│ └── Perbandingan Performa 3 Model.png
 │
 ├── requirements.txt 
 ├── .gitignore
