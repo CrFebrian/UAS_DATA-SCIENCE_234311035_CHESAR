@@ -1,5 +1,5 @@
 # 📘 Judul Proyek
-*Klasifikasi Emosi Musik Berdasarkan Fitur Akustik Menggunakan Pendekatan Baseline Model, Machine Learning dan Deep Learning*
+**Klasifikasi Emosi Musik Berdasarkan Fitur Akustik Menggunakan Pendekatan Baseline Model, Machine Learning dan Deep Learning**
 
 ## 👤 Informasi
 - *Nama*: *Chesar Rizqi Febrianto*  
@@ -11,7 +11,7 @@
 # 1. 🎯 Ringkasan Proyek
 - Membangun sistem klasifikasi emosi suara berbasis fitur akustik untuk membedakan emosi happy dan angry  
 - Melakukan data preparation dan feature engineering pada data audio sebelum pemodelan  
-- Mengembangkan 3 model klasifikasi : *Baseline*, *Advanced* (Random Forest) , *Deep Learning* (MLP)  
+- Mengembangkan 3 model klasifikasi : `Baseline, Advanced (Random Forest) , Deep Learning (MLP)`
 - Melakukan evaluasi performa model dan menentukan model terbaik serta menyimpan model dan scaler untuk penggunaan kembali 
 
 ---
@@ -32,22 +32,25 @@
 ```
 project/
 │
-├── data/                   # Dataset (tidak di-commit, download manual)
+├── data/ 
+│ └── Acoustic_Features/
+│ 
+├── notebooks/
+│ └── ML_Project_UAS_234311035.ipynb
 │
-├── notebooks/              # Jupyter notebooks
-│   └── ML_Project.ipynb
+├── src/ # Source code (opsional: tambahkan script preprocessing, utils, dll.)
 │
-├── src/                    # Source code
-│   
-├── models/                 # Saved models
-│   ├── model_baseline.pkl
-│   ├── model_rf.pkl
-│   └── model_cnn.h5
+├── models/
+│ ├── Model Acoustic.pkl
+│ ├── Model ML Acoustic.pkl
+│ └── model_3_deep_learning.h5
 │
-├── images/                 # Visualizations
-│   └── r
+├── images/ 
+│ ├── confusion_matrix.png
+│ ├── f1_comparison.png
+│ └── training_history.png
 │
-├── requirements.txt        # Dependencies
+├── requirements.txt 
 ├── .gitignore
 └── README.md
 ```
@@ -111,10 +114,10 @@ Berikut tabel fitur yang digunakan:*
 ---
 
 # 8. 🔮 Future Work
-[x] Menambah kelas emosi selain happy dan angry
-[x] Menggunakan fitur audio tambahan atau spectrogram
-[ x ] Melakukan tuning hyperparameter model
-[ x ] Mengembangkan sistem ke tahap deployment
+- [x] Menambah kelas emosi selain happy dan angry
+- [x] Menggunakan fitur audio tambahan atau spectrogram
+- [x] Melakukan tuning hyperparameter model
+- [x] Mengembangkan sistem ke tahap deployment
 
 ---
 
@@ -123,18 +126,15 @@ Gunakan environment:
 
 Library Utama:
 
-python >= 3.9
-numpy
-pandas
-scikit-learn
-matplotlib
-seaborn
-joblib
-
-python >= 3.9
-numpy
-pandas
-scikit-learn
-tensorflow
-matplotlib
-joblib
+- python >= 3.9
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - joblib
+  - tensorflow
+ 
+Instalasi:
+```bash
+pip install -r requirements.txt
